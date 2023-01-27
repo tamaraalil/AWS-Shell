@@ -12,7 +12,7 @@ A shell for an AWS user to access and manipulate their S3 objects.
 Local Commands
 - This shell passes all bash/zsh commands on your local computer.
 
-###locs3cp
+### locs3cp
 - Uploads a file from local system to cloud
 - Usage: 
 ```locs3cp <full or relative pathname of local file> /<bucket name>/<full pathname of S3>```
