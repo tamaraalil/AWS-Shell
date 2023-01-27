@@ -548,8 +548,5 @@ def main():
             except:
                 print("command not found: ", inp)
 
-# Tiny bug fixes:
-    # TODO list -l for subdirectories
-
 if __name__ == "__main__":
     main()
