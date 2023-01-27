@@ -64,5 +64,5 @@ A shell for an AWS user to access and manipulate their S3 objects.
 - Usage:
 ```s3delete <full or relative pathname of object>```
 
-Local Commands
+### Local Commands
 - This shell passes all bash/zsh commands on your local computer.
