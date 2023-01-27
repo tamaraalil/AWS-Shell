@@ -17,33 +17,33 @@ Local Commands
 - Usage: 
 ```locs3cp <full or relative pathname of local file> /<bucket name>/<full pathname of S3>```
 
-###s3loccp
+### s3loccp
 - Downloads a file from the cloud to your local system
 - Usage:
 ```s3loccp /<bucket name>/<full pathname of S3 file> <full/relative pathname of the local file>```
 
-###create_bucket
+### create_bucket
 - Creates a bucket in the cloud
 - Usage:
 ```create_bucket /<bucket name>```
 
-###create_folder
+### create_folder
 - Creates a folder in the cloud
 - Usage:
 ```create_folder <full or relative pathname for the folder>```
 
-###chlocn 
+### chlocn 
 - Change directory in S3 storage buckets/folders, like "cd"
 - Supports "chlocn ..", "chlocn ../..", and "chlocn"
 - Usage:
 ```chlocn <full or relative pathname of directory>```
 
-###cwlocn
+### cwlocn
 - Prints current working directory
 - Usage:
 ```cwd```
 
-###list
+### list
 - Lists objects/buckets in a directory, like "ls"
 - Adding -l flag lists more information about the objects
 - Usage:
@@ -51,17 +51,17 @@ Local Commands
 ```list -l```       
 ```list <full or relative pathname of directory>```
 
-###s3copy
+### s3copy
 - Copies an S3 object from one location to another
 - Usage:
 ```s3copy <from S3 location of object> <to S3 location>```
 
-###delete_bucket
+### delete_bucket
 - Deletes a bucket in S3 storage
 - Usage:
 ```delete_bucket <bucket name>```
 
-###s3delete
+### s3delete
 - Deletes an object in S3 storage
 - Usage:
 ```s3delete <full or relative pathname of object>```
