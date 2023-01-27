@@ -9,8 +9,6 @@ A shell for an AWS user to access and manipulate their S3 objects.
 - This program assumes that paths starting with '/' are full paths (bucket name at the beginning), and paths without a slash at the beginning are relative paths.
 
 ## Commands 
-Local Commands
-- This shell passes all bash/zsh commands on your local computer.
 
 ### locs3cp
 - Uploads a file from local system to cloud
@@ -65,3 +63,6 @@ Local Commands
 - Deletes an object in S3 storage
 - Usage:
 ```s3delete <full or relative pathname of object>```
+
+Local Commands
+- This shell passes all bash/zsh commands on your local computer.
